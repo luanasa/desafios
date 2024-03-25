@@ -1,0 +1,14 @@
+.topbar_container {
+  background-color: #121212;
+  width: 428px;
+  height: 25px;
+  color: #FFFFFF;
+  padding: 2px;
+
+  line-height: 17.64px;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

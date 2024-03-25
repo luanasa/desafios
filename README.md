@@ -1,4 +1,3 @@
-# desafios
-Desafios Codelandia
+# Desafios Codelandia
 
-Desafios do curso.
+Desafios do curso Codelandia.
