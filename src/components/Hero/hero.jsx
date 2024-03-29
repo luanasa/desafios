@@ -1,8 +1,22 @@
 import './hero.css';
+import ScrollReveal from 'scrollreveal'; 
+import React, { useEffect } from 'react';
 
 function Hero() {
+
+  useEffect(() => {
+    ScrollReveal().reveal('.info-price', {
+      delay: 300, 
+      distance: '50px', 
+      origin: 'right', 
+      duration: 1000, 
+      easing: 'ease-in-out', 
+      reset: true 
+    });
+  }, []); 
   return (
     <div className="hero_container">
+      <div className="hero-text">
       <div className="avatars">
         <img src="./avatars.png" alt="" />
         <span>Junte-se a +10.000 alunos</span>
@@ -11,7 +25,8 @@ function Hero() {
         <h1>Comece a estudar <span>frontend</span> do zero com uma linguagem simples</h1>
         <p>Trabalhe de casa, usando as tecnologias mais requisitados do mercado frontend.</p>
       </div>
-
+      </div>
+      
       <div className="info-price">
         <div className="header">
           <span>90% OFF</span>

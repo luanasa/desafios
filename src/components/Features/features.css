@@ -6,13 +6,20 @@
   background-color: #000;
   color: #FFFFFF;
 
-  padding: 32px;
-  margin-bottom: 0.5rem;
+  padding: 5px 20px;
 
 }
 
 .features_container img {
   width: 58px;
+}
+
+.features-container img {
+  transition: box-shadow 0.3s ease; 
+}
+
+.features-container img:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.5);
 }
 
 .features_container h2 {
@@ -25,4 +32,35 @@
   font-weight: 400;
   width: 336px;
   line-height: 25.6px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .features-container {
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+
+    margin-top: 2rem;
+  }
+
+  .features_container p {
+    width: 299px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .features-container img {
+    width: 56px;
+  }
+  .features-container h2 {
+    font-size: 20px;
+  }
+  .features-container p {
+    font-size: 14px;
+    width: 245px;
+  }
+  .features-container {
+    align-items: center;
+  }
 }
