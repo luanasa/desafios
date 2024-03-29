@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Sidebar</title>
+</head>
+<body>
+  <div class="sidebar-container">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="">
+      <img id="menu" src="./images/menu.svg" alt="">
+    </div>
+    <div class="list-pages">
+      <ul>
+        <li>
+          <form action="#" method="get" class="active search-form">
+            <img src="./images/search.svg" alt="" />
+            <input type="search" placeholder="Buscar" />
+          </form>
+        </li>
+        <li>
+          <a href="#dashboard">
+            <img src="./images/grid.svg" alt="">
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="#pets">
+            <img src="./images/pet.svg" alt="">
+            Pets
+          </a>
+        </li>
+        <li>
+          <a href="#user">
+            <img src="./images/user.svg" alt="">
+            Clientes
+          </a>
+        </li>
+        <li>
+          <a href="#vets">
+            <img src="./images/vet.svg" alt="">
+            Vets
+          </a>
+        </li>
+        <li>
+          <a href="#settings">
+            <img src="./images/settings.svg" alt="">
+            Ajustes
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="user-info">
+      <div class="photo-info">
+        <img id="user-photo" src="./images/photo.svg" alt="">
+        <p>
+          Eleanor Pena <br> 
+          <span>Veterinária</span>
+        </p>
+      </div>
+
+      <img src="./images/log-out.svg" alt="">
+    </div>
+  </div>
+
+  <div class="sidebar-container-active">
+    <ul>
+      <li>
+        <a href="">
+          <img src="./images/menu.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="./images/search.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./images/grid.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="./images/pet.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="./images/user.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="./images/vet.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="./images/settings.svg" alt="">
+        </a>
+      </li>
+    </ul>
+
+    <img src="./images/log-out.svg" alt="">
+  </div>
+  <header>
+    <h1>Dashboard</h1>
+  </header>
+
+  <script src="./script.js"></script>
+</body>
+</html>
